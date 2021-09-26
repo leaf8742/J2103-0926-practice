@@ -7,5 +7,6 @@ public class HelloServlet implements HttpServlet {
 	}
 	
 	public void doPost(HttpServletReqeust request, HttpServletResponse response) {
+		this.doGet(request, response);
 	}
 }
